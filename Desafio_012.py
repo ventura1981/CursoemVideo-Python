@@ -1,6 +1,7 @@
+# -*- coding: utf-8 -*-
 # Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto
 
-precooriginal = float(input('Informe o valor da compra:'))
+precooriginal = float(input('Informe o valor da compra R$'))
 desconto = float(input('Informe o falor do desconto:'))
 
 resultado = (desconto / 100) * precooriginal
