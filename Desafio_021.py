@@ -10,7 +10,7 @@ else:
     print("Arquivo não encontrado")
 pygame.mixer.music.load('exalta.mp3')
 pygame.mixer.music.play(0)
-pygame.mixer.music.set_volume(5)
+pygame.mixer.music.set_volume(1)
 
 clock = pygame.time.Clock()
 clock.tick(10)
@@ -20,6 +20,6 @@ while pygame.mixer.music.get_busy():
    clock.tick(10)
 
 print("Chupa Mundo!!! MP3 Player Funfando")
-pygame.
+
 
 
